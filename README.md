@@ -6,7 +6,7 @@ This userscript allows you to download your saved messages with any bot you've e
 
 - Install a userscript manager.
   - Personally I tested this with [Violentmonkey](https://violentmonkey.github.io/get-it/) on Firefox, but I think Greasemonkey and Tampermonkey should work as well.
-- Install the userscript [from here](https://git.fuwafuwa.moe/waifu-collective/toolbox/raw/branch/master/extras/characterai-dumper/characterai-dumper.user.js).
+- Install the userscript [from here](https://github.com/0x000011b/characterai-dumper/raw/master/characterai-dumper.user.js).
 - Now, while you're talking to a character, click on "View Saved Chats" to go to their histories page:
   ![Where to find "View Saved Chats"](./example-images/01.png)
 - After a few seconds, a `Download` link should pop up next to the "Your past conversations with so-and-so" header:

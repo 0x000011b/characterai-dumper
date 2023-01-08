@@ -6,8 +6,8 @@
 // @version     1.4
 // @author      0x000011b
 // @description Allows downloading saved chat messages and character definitions from CharacterAI.
-// @downloadURL https://git.fuwafuwa.moe/waifu-collective/toolbox/raw/branch/master/extras/characterai-dumper/characterai-dumper.user.js
-// @updateURL   https://git.fuwafuwa.moe/waifu-collective/toolbox/raw/branch/master/extras/characterai-dumper/characterai-dumper.user.js
+// @downloadURL https://github.com/0x000011b/characterai-dumper/raw/master/characterai-dumper.user.js
+// @updateURL   https://github.com/0x000011b/characterai-dumper/raw/master/characterai-dumper.user.js
 // ==/UserScript==
 
 const log = (firstArg, ...remainingArgs) =>
