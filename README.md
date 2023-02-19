@@ -50,7 +50,7 @@ This userscript allows you to download your saved messages with any bot you've e
 
 If the `Download` link doesn't show up after a few seconds and you're on the proper page, check the DevTools console for errors.
 
-The most probable causes of breakage are:
+Usually, failures are caused by some browser extension or configuration that stops the userscript from loading its external dependencies properly. However, there are two other known failure modes that seem to be _somewhat_ common:
 
-- You have some browser extension which stopped the userscript from loading its external dependencies properly; or
-- CharacterAI changed their API around in ways the script didn't expect, and I'll need to release an update.
+- Sometimes a character seems to have mismatched names depending on which API endpoint is being hit. In those cases, you'll need to manually download the response data instead of using the userscript, as described [here](https://github.com/0x000011b/characterai-dumper/issues/5#issuecomment-1436033283).
+- For whatever reason, some people report certain combinations of browser/OS/userscript managers not working, but upon switching to another browser/userscript manager everything works fine. If the download link never shows up, consider trying another browser or userscript manager (or both).
