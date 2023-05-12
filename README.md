@@ -1,3 +1,9 @@
+# Deprecation Notice
+
+The CharacterAI website has finally been updated to fix the wasteful serialization of conversation histories. Unfortunately, that change has broken this userscript.
+
+Due to time constraints I am no longer maintaining this repository, and instead recommend that you look for other tools to export your CAI conversations. One such tool I've been suggested is a browser extension called "CAI Tools". I have not tested it myself and as such cannot vouch for it - but if you need a replacement for this userscript, I suggest searching for it and giving it a shot.
+
 # CharacterAI Dumper Userscript
 
 This userscript allows you to download your saved messages with any bot you've ever talked to, given you can reach their chat history page. If you're a bot creator, it also allows you to separately download your bot's definitions.
